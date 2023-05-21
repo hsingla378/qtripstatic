@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QTrip Adventures</title>
+    <link rel="stylesheet" href="../../css/styles.css" />
+    <!-- Latest compiled and minified CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <!-- Latest compiled JavaScript -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js"
+      integrity="sha512-1/RvZTcCDEUjY/CypiMz+iqqtaoQfAITmNSJY17Myp4Ms5mdxPS5UV7iOfdZoxcGhzFbOm6sntTKJppjvuhg4g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </head>
+
+  <body>
+    <!-- TODO: MODULE_ADVENTURES_GRID -->
+    <!-- 1. Copy navigation bar HTML from Landing page document -->
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/">QTrip</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Explore</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="container my-5">
+      <h1>Explore all adventures</h1>
+      <p>Here's list of adventures that you can explore in the city.</p>
+    </header>
+
+    <div class="container">
+      <div class="content">
+        <!-- TODO: MODULE_ADVENTURES_GRID -->
+        <!-- 1. Create the grid of adventures by adding child elements as required. -->
+        <div class="row">
+          <div class="col-lg-3 col-6 mb-3">
+            <a href="./resort/index.html">
+              <div class="adventure-card border rounded">
+                <img src="../../assets/adventures/resort.jpg" alt="Resort" />
+                <div
+                  class="adventure-card-text p-3 d-flex justify-content-center justify-content-md-between flex-column flex-md-row align-items-center"
+                >
+                  <h5>Resort</h5>
+                  <p>₹1,200</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-6 mb-3">
+            <a href="./resort/index.html">
+              <div class="adventure-card border rounded">
+                <img src="../../assets/adventures/tower.jpg" alt="Tower" />
+                <div
+                class="adventure-card-text p-3 d-flex justify-content-center justify-content-md-between flex-column flex-md-row align-items-center"
+                >
+                  <h5>Tower</h5>
+                  <p>₹1,800</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-6 mb-3">
+            <a href="./resort/index.html">
+              <div class="adventure-card border rounded">
+                <img src="../../assets/adventures/mount.jpg" alt="Skiing" />
+                <div
+                class="adventure-card-text p-3 d-flex justify-content-center justify-content-md-between flex-column flex-md-row align-items-center"
+                >
+                  <h5>Skiing</h5>
+                  <p>₹1,900</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-6 mb-3">
+            <a href="./resort/index.html">
+              <div class="adventure-card border rounded">
+                <img src="../../assets/adventures/university.jpg" alt="University" />
+                <div
+                class="adventure-card-text p-3 d-flex justify-content-center justify-content-md-between flex-column flex-md-row align-items-center"
+                >
+                  <h5>University</h5>
+                  <p>₹800</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-6 mb-3">
+            <a href="./resort/index.html">
+              <div class="adventure-card border rounded">
+                <img src="../../assets/adventures/market.jpg" alt="Market" />
+                <div
+                class="adventure-card-text p-3 d-flex justify-content-center justify-content-md-between flex-column flex-md-row align-items-center"
+                >
+                  <h5>Market</h5>
+                  <p>₹600</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-6 mb-3">
+            <a href="./resort/index.html">
+              <div class="adventure-card border rounded">
+                <img src="../../assets/adventures/church.jpg" alt="Monument" />
+                <div
+                class="adventure-card-text p-3 d-flex justify-content-center justify-content-md-between flex-column flex-md-row align-items-center"
+                >
+                  <h5>Monument</h5>
+                  <p>₹1200</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-6 mb-3">
+            <a href="./resort/index.html">
+              <div class="adventure-card border rounded">
+                <img src="../../assets/adventures/canopy.jpg" alt="Canopy" />
+                <div
+                class="adventure-card-text p-3 d-flex justify-content-center justify-content-md-between flex-column flex-md-row align-items-center"
+                >
+                  <h5>Canopy</h5>
+                  <p>₹1,800</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-6 mb-3">
+            <a href="./resort/index.html">
+              <div class="adventure-card border rounded">
+                <img src="../../assets/adventures/beachside.jpg" alt="Beach" />
+                <div
+                class="adventure-card-text p-3 d-flex justify-content-center justify-content-md-between flex-column flex-md-row align-items-center"
+                >
+                  <h5>Beach Getaway</h5>
+                  <p>₹2,200</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">© QTrip 2020</div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
